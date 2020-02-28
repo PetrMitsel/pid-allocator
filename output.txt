@@ -1,6 +1,6 @@
 Allocating Map:
 allocate_map success
-Allocating ids:
+Allocating pids:
 Allocated pid: 300
 Allocated pid: 301
 Allocated pid: 302
