@@ -1,5 +1,5 @@
 # pid-allocator
-
+Replicates the process manager of an operating system programmatically. A process manager is responsible for assigning unique process ids to each process that is running on an operating system. We replicate this by keeping track of the availability of a range of process ids using a bit-map, similar to Linux. When the bitmap is full no more process id’s can be assigned unless a process is terminated and a process id is released. This ensures that all running processes have a unique id. 
 #	allocate_map(): 
 This method takes no parameters, and returns an integer 1 or -1 representing a success or failure. It is responsible for initializing the bitmap which tracks availability of various process ids.
 #	allocate_pid(): 
