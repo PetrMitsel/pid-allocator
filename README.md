@@ -7,6 +7,10 @@ This method takes no parameters and returns an integer representing the allocate
 #	release_pid(pid): 
 This method takes an integer parameter representing the process id to be released. It returns nothing. The method resets the bit in the bitmap at the index equal to the process id minus an offset of the minimum process id. 
 
-# to run:
+# to run for Assignment 3.20:
     pip install BitMap
     python client.py
+
+# to run for Assignment 4.20:
+    pip install BitMap
+    python thread_client.py
