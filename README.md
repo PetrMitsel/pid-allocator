@@ -15,4 +15,4 @@ This method takes an integer parameter representing the process id to be release
 
 # to run for Assignment 4.20:
     pip install BitMap
-    python thread_client.py
+    python threaded_client.py
